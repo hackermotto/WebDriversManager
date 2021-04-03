@@ -1,6 +1,6 @@
 
 # WDM - WebDrivers Manager
-A Simple shell script written to help you installing webdrivers.
+A Simple shell script was written to help you installing web drivers.
 
 # Supported WebDrivers
 The supported webdrivers so far.
