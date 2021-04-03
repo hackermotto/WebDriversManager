@@ -100,15 +100,15 @@ function UninstallChromeDriver {
 	fi	
 }
 
+Initialize
+
 case $1 in 
 	install)
 		case $2 in
 			gecko)
-				Initialize
 				InstallGeckoDriver
 			;;
 			chrome)
-				Initialize
 				InstallChromeDriver
 			;;
 		esac
@@ -117,11 +117,9 @@ case $1 in
 	uninstall)
 		case $2 in
 			gecko)
-				Initialize
 				UninstallGeckoDriver
 			;;
 			chrome)
-				Initialize
 				UninstallChromeDriver
 			;;
 		esac
